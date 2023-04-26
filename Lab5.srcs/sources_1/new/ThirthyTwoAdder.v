@@ -20,7 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module ThirthyTwoAdder(
-
-    );
+module ThirthyTwoAdder(input enable, input [31:0]A, [31:0] B, output [31:0] addOut);
+wire notB, bW;
+not not1(B, notB);
+TwoToOneMultiplexer(enable, notB, B, bW);
+FullAdder(enable, A, bW, addOut); 
 endmodule

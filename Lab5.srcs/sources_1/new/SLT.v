@@ -20,7 +20,15 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module SLT(
-
-    );
+module SLT(input[31:0] addOut, enable, output[31:0] ArithOut);
+wire extended;
+reg [31:0] out;
+always @(*)
+begin
+    if(A>B)
+        out <= 32'b000000;
+    else
+        out <= 32'b000001;
+end   
+TwoToOneMultiplexer(enable, out, addOut, ArithOut); 
 endmodule

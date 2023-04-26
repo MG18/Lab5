@@ -20,7 +20,6 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module ArithmeticModule(
+module ArithmeticModule(input[3:0] AluOp, input[31:0] A, input[31:0] B, output[31:0] out);
 
-    );
 endmodule
