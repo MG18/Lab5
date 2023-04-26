@@ -1,0 +1,24 @@
+Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2.2 (win64) Build 3788238 Tue Feb 21 20:00:34 MST 2023
+| Date         : Wed Apr 26 20:43:36 2023
+| Host         : MG running 64-bit major release  (build 9200)
+| Command      : upgrade_project -migrate_output_products
+| Project_Path : C:/Users/mehme/Documents/Lab5/Lab5.xpr
+--------------------------------------------------------------------------------------
+
+Project Status Summary
+
+1. Project IP Status
+--------------------
+This project contains 0 IP and 0 Block Designs.
+
+
+1.1 Project IP Instances
++--+-------------------------+-------------------------------------+-------------------------------------+
+| Instance | Status                  | Reason                              | Recommendation                      |
+| Name |                         |                                     |                                     |
++--+-------------------------+-------------------------------------+-------------------------------------+
+
+
+

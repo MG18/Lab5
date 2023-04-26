@@ -22,13 +22,16 @@
 
 module SLT(input[31:0] addOut, enable, output[31:0] ArithOut);
 wire extended;
-reg [31:0] out;
+reg flagBit, out;
+
 always @(*)
 begin
-    if(A>B)
-        out <= 32'b000000;
+flagBit <= addOut[31];
+    if(flagBit == 1)
+        out <= 32'b1;
     else
-        out <= 32'b000001;
+        out <= 32'b0;
 end   
+assign ArithOut = out;
 TwoToOneMultiplexer(enable, out, addOut, ArithOut); 
 endmodule
