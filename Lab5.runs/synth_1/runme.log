@@ -1,0 +1,42 @@
+
+*** Running vivado
+    with args -log ALU.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+
+
+
+****** Vivado v2022.2.2 (64-bit)
+  **** SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+  **** IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+    ** Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+
+source ALU.tcl -notrace
+Command: synth_design -top ALU -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10776
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1207.613 ; gain = 410.336
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ArithmeticModule' [C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ArithmeticModule.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ThirthyTwoAdder' [C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ThirthyTwoAdder.v:23]
+ERROR: [Synth 8-550] port width mismatch in instance array for port 'output': actual width = 32, formal width = 1, instance count = 1 [C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ThirthyTwoAdder.v:25]
+INFO: [Synth 8-6157] synthesizing module 'TwoToOneMultiplexer' [C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/2To1Multiplexer.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'TwoToOneMultiplexer' [C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/2To1Multiplexer.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'ThirthyTwoAdder' [C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ThirthyTwoAdder.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'ArithmeticModule' [C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ArithmeticModule.v:23]
+ERROR: [Synth 8-6156] failed synthesizing module 'ALU' [C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ALU.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1295.230 ; gain = 497.953
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 0 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 27 22:23:51 2023...

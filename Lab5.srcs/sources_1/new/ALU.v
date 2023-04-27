@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 04/26/2023 05:49:39 PM
+// Create Date: 27.04.2023 22:20:48
 // Design Name: 
-// Module Name: ArithmeticModule
+// Module Name: ALU
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,10 +20,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module ArithmeticModule(input[3:0] AluOp, input[31:0] A, input[31:0] B, output[31:0] out); 
-wire addOut;
+module ALU(input [3:0] AluOp, input [31:0] A, input [31:0] B, output [31:0] out);
+wire arithmeticOut, logicOut;
 
-ThirthyTwoAdder(AluOp[2], A, B, addOut);
-SLT(addOut, AluOp[0], out);
+ArithmeticModule(AluOp, A, B, arithmeticOut);
+LogicModule(AluOp, A , B, logicOut);
 
-endmodule
+TwoToOneMultiplexer(AluOp[1], arithmeticOut, logicOut);
+endmodule 
