@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 28.04.2023 14:55:58
+// Create Date: 28.04.2023 15:02:18
 // Design Name: 
-// Module Name: FullAdder
+// Module Name: SimpleAdder
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,14 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module FullAdder(input a, input b, input cin, output sum, output carry);
-wire xor1w, and1w, and2w, and3w;
+module SimpleAdder(input [31:0] A, input [31:0] B, output [31:0] out);
 
-xor xor1(a, b, xor1w);
-xor xor2(xor1w, cin, sum);
-and and1(a, b, and1w);
-and and2(b, cin, and2w);
-and and3(cin, a, and3w);
-or or1(and1w, and2w, and3w, carry);
+assign out = A+B;
 
 endmodule
