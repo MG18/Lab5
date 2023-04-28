@@ -90,11 +90,11 @@ read_verilog -library xil_defaultlib {
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/AndBitwise.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ArithmeticModule.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/FourToOneMux.v
-  C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/FullAdder.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/LogicModule.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/NorBitwise.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/OrBitwise.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/SLT.v
+  C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/SimpleAdder.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/XorBitwise.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ALU.v
 }

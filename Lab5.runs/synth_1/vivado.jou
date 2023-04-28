@@ -2,8 +2,8 @@
 # Vivado v2022.2.2 (64-bit)
 # SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
 # IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
-# Start of session at: Fri Apr 28 14:57:30 2023
-# Process ID: 15944
+# Start of session at: Fri Apr 28 16:04:42 2023
+# Process ID: 16280
 # Current directory: C:/Users/mehme/Documents/Lab5/Lab5.runs/synth_1
 # Command line: vivado.exe -log ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
 # Log file: C:/Users/mehme/Documents/Lab5/Lab5.runs/synth_1/ALU.vds

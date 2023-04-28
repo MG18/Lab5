@@ -24,6 +24,6 @@ module ArithmeticModule(input [3:0] AluOp, input [31:0] A, input [31:0] B, outpu
 reg addOut;
 
 AdderModule(AluOp[1], A, B, addOut);
-SLT(addOut[31], AluOp[3], out);
+SLT(addOut, AluOp[3], out);
 
 endmodule;

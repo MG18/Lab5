@@ -26,5 +26,5 @@ wire arithmeticOut, logicOut;
 ArithmeticModule(AluOp, A, B, arithmeticOut);
 LogicModule(AluOp, A , B, logicOut);
 
-TwoToOneMultiplexer(AluOp[1], arithmeticOut, logicOut);
+TwoToOneMultiplexer(AluOp[2], arithmeticOut, logicOut);
 endmodule 
