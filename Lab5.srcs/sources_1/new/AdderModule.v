@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 04/26/2023 05:31:40 PM
+// Create Date: 28.04.2023 14:50:30
 // Design Name: 
-// Module Name: FullAdder
+// Module Name: AdderModule
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,8 +20,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module SimpleAdder(input [31:0] A, input [31:0] B, output [31:0] out);
+module AdderModule(input enable, input [31:0] A, input [31:0] B, output [31:0] addOut);
+wire notbw;
 
-assign out = A+B;
+not not1(B, notbw);
+TwoToOneMultiplexer(enable, notbw, B, muxw);
+SimpleAdder(A, muxw, addOut);
 
 endmodule

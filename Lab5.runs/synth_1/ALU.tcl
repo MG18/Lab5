@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -87,14 +86,15 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/2To1Multiplexer.v
+  C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/AdderModule.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/AndBitwise.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ArithmeticModule.v
+  C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/FourToOneMux.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/FullAdder.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/LogicModule.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/NorBitwise.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/OrBitwise.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/SLT.v
-  C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ThirthyTwoAdder.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/XorBitwise.v
   C:/Users/mehme/Documents/Lab5/Lab5.srcs/sources_1/new/ALU.v
 }

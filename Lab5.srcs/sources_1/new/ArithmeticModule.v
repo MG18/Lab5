@@ -20,10 +20,10 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module ArithmeticModule(input[3:0] AluOp, input[31:0] A, input[31:0] B, output[31:0] out); 
-wire addOut;
+module ArithmeticModule(input [3:0] AluOp, input [31:0] A, input [31:0] B, output [31:0] out);
+reg addOut;
 
-ThirthyTwoAdder(AluOp[2], A, B, addOut);
-SLT(addOut, AluOp[0], out);
+AdderModule(AluOp[1], A, B, addOut);
+SLT(addOut[31], AluOp[3], out);
 
-endmodule
+endmodule;
