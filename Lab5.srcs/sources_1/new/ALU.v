@@ -20,11 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module ALU(input [3:0] AluOp, input [31:0] A, input [31:0] B, output [31:0] out);
+module ALU(input [3:0] AluOp, input [31:0] A, input [31:0] B, output [31:0] out, output zero);
 wire arithmeticOut, logicOut;
 
 ArithmeticModule(AluOp, A, B, arithmeticOut);
 LogicModule(AluOp, A , B, logicOut);
 
 TwoToOneMultiplexer(AluOp[2], arithmeticOut, logicOut);
+
+assign zero = (out == 32'b0) ? 1 : 0;
+
 endmodule 

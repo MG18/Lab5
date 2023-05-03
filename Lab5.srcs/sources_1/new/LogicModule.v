@@ -25,10 +25,10 @@ reg [31:0] Or;
 reg[31:0] Xor; 
 reg[31:0] Nor;
 
-AndBitwise(A, B, And);
-OrBitwise(A, B, Or);
-XorBitwise(A, B, Xor);
-NorBitwise(A, B, Nor);
+AndBitwise(And, A, B);
+OrBitwise(Or, A, B);
+XorBitwise(Xor, A, B);
+NorBitwise(Nor, A, B);
 
 FourToOneMux(AluOp[1:0], And, Or, Xor, Nor, out);
 

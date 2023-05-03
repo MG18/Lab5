@@ -1,0 +1,375 @@
+Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2.2 (win64) Build 3788238 Tue Feb 21 20:00:34 MST 2023
+| Date         : Wed May  3 15:31:57 2023
+| Host         : MG running 64-bit major release  (build 9200)
+| Command      : report_methodology -file ALU_methodology_drc_routed.rpt -pb ALU_methodology_drc_routed.pb -rpx ALU_methodology_drc_routed.rpx
+| Design       : ALU
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 68
++-----------+----------+-----------------------------------------------+------------+
+| Rule      | Severity | Description                                   | Violations |
++-----------+----------+-----------------------------------------------+------------+
+| TIMING-13 | Warning  | Timing paths ignored due to path segmentation | 68         |
++-----------+----------+-----------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-13#1 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[0]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#2 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[10]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#3 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[11]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#4 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[12]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#5 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[13]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#6 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[14]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#7 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[15]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#8 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[16]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#9 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[17]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#10 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[18]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#11 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[19]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#12 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[1]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#13 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[20]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#14 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[21]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#15 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[22]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#16 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[23]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#17 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[24]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#18 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[25]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#19 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[26]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#20 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[27]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#21 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[28]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#22 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[29]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#23 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[2]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#24 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[30]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#25 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[31]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#26 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[3]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#27 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[4]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#28 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[5]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#29 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[6]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#30 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[7]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#31 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[8]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#32 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) A[9]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#33 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) AluOp[0]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#34 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) AluOp[1]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#35 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) AluOp[2]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#36 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) AluOp[3]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#37 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[0]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#38 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[10]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#39 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[11]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#40 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[12]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#41 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[13]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#42 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[14]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#43 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[15]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#44 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[16]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#45 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[17]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#46 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[18]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#47 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[19]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#48 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[1]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#49 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[20]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#50 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[21]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#51 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[22]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#52 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[23]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#53 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[24]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#54 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[25]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#55 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[26]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#56 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[27]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#57 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[28]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#58 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[29]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#59 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[2]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#60 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[30]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#61 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[31]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#62 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[3]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#63 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[4]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#64 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[5]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#65 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[6]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#66 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[7]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#67 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[8]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+TIMING-13#68 Warning
+Timing paths ignored due to path segmentation  
+Some timing paths are not reported due to path segmentation on pin(s) B[9]. To prevent path segmentation, all the Min and Max delay constraints should be defined with a list of valid startpoints and endpoints
+Related violations: <none>
+
+

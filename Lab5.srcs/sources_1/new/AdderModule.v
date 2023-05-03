@@ -21,9 +21,9 @@
 
 
 module AdderModule(input enable, input [31:0] A, input [31:0] B, output [31:0] addOut);
-wire notbw;
+wire notbw, muxw;
 
-not not1(B, notbw);
+not not1(notbw, B);
 TwoToOneMultiplexer(enable, notbw, B, muxw);
 SimpleAdder(A, muxw, addOut);
 
